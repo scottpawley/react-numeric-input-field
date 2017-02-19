@@ -1,3 +1,3 @@
-/**
- * Created by Scott on 2/18/2017.
- */
+// export this package's api
+import app from './src/';
+export default app;

@@ -1,3 +1,4 @@
-/**
- * Created by Scott on 2/18/2017.
- */
+//noinspection JSUnresolvedVariable
+import app from './Component';
+
+export default app;
