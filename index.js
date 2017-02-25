@@ -415,8 +415,9 @@ module.exports =
                     var defaultValue = _props.defaultValue;
                     var onInvalid = _props.onInvalid;
                     var onValid = _props.onValid;
+                    var decimalAllowed = _props.decimalAllowed;
 
-                    var rest = _objectWithoutProperties(_props, ["step", "min", "max", "precision", "parse", "format", "mobile", "value", "type", "style", "defaultValue", "onInvalid", "onValid"]);
+                    var rest = _objectWithoutProperties(_props, ["step", "min", "max", "precision", "parse", "format", "mobile", "value", "type", "style", "defaultValue", "onInvalid", "onValid", "decimalAllowed"]);
 
                     for (var x in NumericInput.style) {
                         css[x] = _extends({}, NumericInput.style[x], style ? style[x] || {} : {});
