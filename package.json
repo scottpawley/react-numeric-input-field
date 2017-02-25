@@ -34,9 +34,6 @@
     "react-addons-test-utils": "^15.3.2",
     "webpack": "^1.12.2"
   },
-  "peerDependencies": {
-    "react": ">=0.14.0 || ^15.2.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scottpawley/react-numeric-input-field.git"
